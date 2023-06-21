@@ -2,9 +2,9 @@ package udemy.learnspringframework.game;
 
 public class GameRunner {
     // MarioGame game;
-    private SuperContraGame game;
+    private GamingConsole game;
 
-    public GameRunner(SuperContraGame game) { // MarioGame -> SuperContraGame
+    public GameRunner(GamingConsole game) { // MarioGame -> SuperContraGame
         this.game = game;
     }
 
